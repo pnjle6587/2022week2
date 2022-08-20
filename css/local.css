@@ -1,0 +1,160 @@
+html {
+	height: 100%
+}
+
+body {
+  font-family: "Noto Sans", Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  font-style: italic;
+  font-size: 24px;
+}
+
+h2 {
+	font-size: 64px;
+	line-height: 84px;
+	padding-top: 56px;
+}
+
+.wrapper {
+	width: 1920px;
+	margin: 0 auto;
+}
+
+.text-white {
+	color: #fff;
+}
+
+header {
+  background-image: url("../img/banner.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+  background-position: center center;
+  display: flex;
+  color: white;
+	padding: 308px 0;
+}
+
+.flex {
+	display: flex;
+}
+
+.direction-column {
+	flex-direction: column;
+}
+
+.column-center {
+	align-items: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.header-icon {
+	margin-top: 40px;
+}
+
+.header-icon li:not(:last-child) {
+	margin-right: 16px;
+}
+
+header h4 {
+	text-align: left;
+	font-size: 24px;
+	line-height: 42px;
+}
+
+header h1 {
+	font-size: 80px;
+	line-height: 106px;
+}
+
+head h3 {
+	font-size: 24px;
+	line-height: 1.5;
+	margin-top: 32px;
+}
+
+.about img {
+	margin-top: 40px;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.birth {
+	margin-top: 20px;
+	margin-bottom: 24px;
+}
+
+.job {
+	width: 384px;
+	border-top: 1px solid #000;
+	margin-bottom: 56px;
+}
+
+.job li {
+	margin-top: 28px;
+}
+
+.job li::before {
+	content: '';
+	width: 22px;
+	height: 22px;
+	background-color: #891818;
+	display:inline-block;
+	border-radius: 50%;
+	margin-right: 16px;
+}
+
+.bg-black {
+	background: #000;
+}
+
+.brand {
+	color: #fff;
+	background: #000;
+}
+
+.brand h3 {
+	margin-top: 12px;
+}
+
+.brand .slogan {
+	margin-top: 32px;
+	margin-bottom: 68px;
+}
+
+.brand-pic {
+	margin-top: 40px;
+	padding-bottom: 160px;
+}
+
+.other {
+	padding-bottom: 144px;
+}
+
+.other-pic {
+	margin-top: 48px;
+}
+
+.other-pic h4 {
+	margin-top: 16px;
+}
+
+.brand-pic li:first-child, .other-pic li:not(:last-child){
+	margin-right: 24px;
+}
+
+footer {
+	padding-bottom: 64px;
+}
+
+footer li {
+	margin-top: 16px;
+}
+
+.b-test {
+	border: 1px solid red;
+}
